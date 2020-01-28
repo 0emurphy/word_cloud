@@ -1,4 +1,4 @@
-import pandp
+import pandp.dat
 def take_count(str):
     log = dict()
     book = str.split()
