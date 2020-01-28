@@ -1,0 +1,13 @@
+import pandp
+def take_count(str):
+    log = dict()
+    book = str.split()
+
+    for word in book:
+        if word in log:
+            log[word] += 1
+        else:
+            log[word] = 1
+    print log
+
+take_count(pandp)
